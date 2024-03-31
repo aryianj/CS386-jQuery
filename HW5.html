@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery Advanced Animation</title>
+    <link rel="stylesheet" type="text/css" href="HW5.css"/>    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">   
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+		integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+		crossorigin="anonymous">
+    </script>		
+	<script src="HW5.js" type="text/javascript" ></script>         
+</head>
+<body>
+    <h1>Homework 5</h1>
+    <hr/>
+    <p>Choose alternating row colors:</p>
+    <label for="even"><input type="color" id="even" class="even" value="#457B9D">Even</label>
+    <br/>
+    <label for="odd"><input type="color" id="odd" class="odd" value="#8E936D">Odd</label>
+    <hr/>
+    <table id="tblData">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Country</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr id="odd">
+                <td>Maria Anders</td>
+                <td>30</td>
+                <td>Germany</td>
+                <td>
+                    <input type="button" class="delete" value="Delete">
+                </td>
+            </tr>
+            <tr id="even">
+                <td>Francisco Chang</td>
+                <td>24</td>
+                <td>Mexico</td>
+                <td>
+                    <input type="button" class="delete" value="Delete">
+                </td>
+            </tr>
+            <tr id="odd">
+                <td>Roland Mendel</td>
+                <td>100</td>
+                <td>Austria</td>
+                <td>
+                    <input type="button" class="delete" value="Delete">
+                </td>
+            </tr>
+            <tr id="even">
+                <td>Helen Bennett</td>
+                <td>28</td>
+                <td>UK</td>
+                <td>
+                    <input type="button" class="delete" value="Delete">
+                </td>
+            </tr>
+            <tr id="odd">
+                <td>Yoshi Tannamuri</td>
+                <td>35</td>
+                <td>Canada</td>
+                <td>
+                    <input type="button" class="delete" value="Delete">
+                </td>            
+            </tr>
+            <tr id="even">
+                <td>Giovanni Rovelli</td>
+                <td>46</td>
+                <td>Italy</td>
+                <td>
+                    <input type="button" class="delete" value="Delete">
+                </td>            
+            </tr>
+            <tr id="odd">
+                <td>Alex Smith</td>
+                <td>59</td>
+                <td>USA</td>
+                <td>
+                    <input type="button" class="delete" value="Delete">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
